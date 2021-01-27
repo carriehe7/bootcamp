@@ -76,7 +76,7 @@ ages = [5 , 6, 24, 32, 21, 70]
 # 3. Each cycle in the while loop, should get a value out of the list
 # (Hint : Use a counter)
 counter = 0
-while ages[counter] < 30:
+while ages[counter] > 30:
 
 # 4. Print each tested cell inside the loop
     print(ages[counter])
